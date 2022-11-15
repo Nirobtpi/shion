@@ -1,0 +1,24 @@
+#home{
+    width: 100%;
+    position: relative;
+    padding: 15px 0;
+
+    h4{
+        background: $homeColor;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 300;
+        color: $footerP;
+        a{
+            color: $footerP;
+            margin: 0 10px;
+            transition: 0.3s all linear;
+
+            &:hover{
+                color: $hover;
+            }
+        }
+    }
+}

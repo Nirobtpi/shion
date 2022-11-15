@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+// color plate 
+$colorBlack:#000;
+$colorWhite:#fff;
+$hover:#9F78FF;
+$h1Colo:#140C40;
+$footerP:#B8C5D2;
+$colorp:#646D77;
+$homeColor:#EFF5F8;
+$inputbg:#FBF9FF;
+
+
+
+@import'header';
+@import'hero';
+@import'fashion';
+@import'fashion-2';
+@import'collection';
+@import'content';
+@import'delivery';
+@import'footer';
+@import'home';
+@import'shop';
+@import'story';
+@import'blog';
+@import'map';
+@import'form';
+@import'responsive';

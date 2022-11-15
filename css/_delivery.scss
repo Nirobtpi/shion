@@ -1,0 +1,46 @@
+#delivery{
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+
+    .row{
+        background: #F5F5F5;
+        padding: 170px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-direction: row;
+
+        .col-4{
+            flex-basis: 24%;
+            padding-left: 45px;
+
+            img{
+                display: block;
+                margin-bottom: 25px;
+            }
+            .content{
+                h2{
+                    font-weight: 300;
+                    color: $colorBlack;
+                    font-size: 22px;
+                    opacity: 0.5;
+                    transition: 0.3s all linear;
+                    margin-bottom: 15px;
+
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+                p{
+                    color: #5778B2;
+                    letter-spacing: 1px;
+                    font-size: 14px;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}

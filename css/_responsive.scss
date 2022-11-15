@@ -1,0 +1,537 @@
+@media all and (max-width:1260px) {
+    #header .navigation-bar .logo {
+        flex-basis: 30%;
+    }
+
+    #header .navigation-bar nav {
+        flex-basis: 60%;
+    }
+
+    #header .navigation-bar nav ul li a {
+        font-size: 16px;
+    }
+
+    #header .navigation-bar .social-icon ul li a i {
+        font-size: 14px;
+        width: 28px;
+        height: 28px;
+    }
+
+    #header .navigation-bar .social-icon ul li {
+        padding: 8px 13px;
+    }
+
+    .hero-1 .owl-dots {
+        position: absolute;
+        left: 40%;
+        top: 93%;
+    }
+
+    #fashion .row .col-4 img {
+        // height: 250px;
+        height: 100%;
+    }
+
+    #fashion .row .col-4 .button {
+        left: 15%;
+    }
+
+    #collection .img-thumbnail .content {
+        top: 10%;
+    }
+
+    #content .row .col-2 .content p a {
+        font-size: 31px;
+    }
+
+    #delivery .row .col-4 .content h2 {
+        font-size: 18px;
+    }
+
+    #blog .row .col-3 .resent-post .post .sub-news .content a {
+        font-size: 12px;
+    }
+
+    #blog .row .col-3 .resent-post .post .sub-news .content p {
+        font-size: 8px;
+    }
+
+    #blog .row .col-3 .tag-clouds .btn .sml-btn {
+        padding: 9px 8px;
+    }
+
+}
+
+
+
+
+
+
+
+@media all and (max-width:991px) {
+
+    #header {
+        .navigation-bar {
+            nav {
+                position: absolute;
+                top: 100%;
+                width: 100%;
+                left: -1000px;
+                z-index: 999;
+                transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+
+                ul {
+                    display: block;
+                    background: $colorBlack;
+                    width: 100%;
+                    padding: 15px 0;
+                    border-top: 2px solid $hover;
+                    text-align: center;
+                    height: 80vh;
+
+                    li {
+                        padding: 15px 25px;
+                        transition: 0.5s all linear;
+
+                        a {
+                            color: $colorWhite;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    #header .navigation-bar .social-icon ul li a i {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #header .mobile-menu {
+        display: none;
+        display: block;
+    }
+
+    .hero-1 .owl-dots {
+        position: absolute;
+        left: 30%;
+        top: 93%;
+    }
+
+    #fashion .row .col-4 {
+        flex-basis: 48%;
+        margin-bottom: 20px;
+    }
+
+    #fashion .row .col-4 .button .btn-2 {
+        padding: 12px 60px;
+    }
+
+    #fashion .row .col-4:hover .button {
+        top: 60%;
+    }
+
+    #fashion-2 .row .col-4 {
+        flex-basis: 48%;
+        margin-bottom: 25px;
+    }
+
+    #collection .img-thumbnail .content h1 {
+        font-size: 50px;
+    }
+
+    #content .row .col-2 .content {
+        bottom: 40px;
+        left: 27px;
+    }
+
+    #content .row .col-2 .content p a {
+        font-size: 24px;
+    }
+
+    #delivery .row .col-4 {
+        flex-basis: 50%;
+        margin-bottom: 40px;
+    }
+
+    #delivery .row {
+        padding: 100px 0;
+    }
+
+    #footer .row .col-4 {
+        flex-basis: 47%;
+        padding-bottom: 120px;
+    }
+
+    #shop .main-row .main-col-2 .sub-row .col-4 {
+        flex-basis: 48%;
+        margin-bottom: 20px;
+    }
+
+    #blog .row .full {
+        flex-basis: 100%;
+    }
+
+    #blog .row .col-3 {
+        flex-basis: 100%;
+    }
+
+    #blog .row .col-3 {
+        flex-basis: 100%;
+    }
+
+    #blog .row .col-3 .tag-clouds .btn .sml-btn {
+        padding: 9px 30px;
+    }
+
+    #blog .row .col-3 .newsletter .btn-6 {
+        margin-top: 20px;
+    }
+
+    #blog .row .col-3 .tag-clouds .btn .sml-btn {
+        padding: 9px 22px;
+    }
+}
+
+
+
+
+
+
+@media all and (max-width:767px) {
+    #header .navigation-bar {
+        flex-wrap: wrap;
+
+    }
+
+    #header .navigation-bar .social-icon {
+        margin-top: 7px;
+    }
+
+    #header .navigation-bar .logo a img {
+        margin-left: 0px;
+    }
+
+
+    #fashion .row .col-4 .button .btn-2 {
+        padding: 12px 34px;
+    }
+
+    #collection .img-thumbnail .content {
+        top: 15%;
+    }
+
+    br {
+        display: none;
+    }
+
+    #collection .img-thumbnail .content h1 {
+        font-size: 25px;
+    }
+
+    #content .row .col-2 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    #content .row .col-2 .content {
+        bottom: 100px;
+        left: 50px;
+    }
+
+    #content .row .col-2 .content p a {
+        font-size: 35px;
+    }
+
+    #footer .copyright p a {
+        font-size: 15px;
+    }
+
+    #footer .copyright p {
+        font-size: 12px;
+    }
+
+    #footer .copyright {
+        padding: 0px 0;
+    }
+
+    #shop .main-row .main-col-1 {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    .shirt {
+        margin-bottom: 20px;
+    }
+
+    #shop .main-row {
+        justify-content: center;
+    }
+
+    #story .row .col-2 .content h1 {
+        font-size: 55px;
+    }
+
+    #story .row .col-2 .content p {
+        font-size: 18px;
+    }
+
+    #form .row .col form .name {
+        margin: 20px 0;
+    }
+
+    #form .row .col form .email {
+        margin: 20px 0;
+    }
+
+    #form .row .col form button {
+        margin: 20px 0;
+    }
+
+}
+
+
+
+
+
+
+
+@media all and (max-width:574px) {
+    #header .navigation-bar .logo a img {
+        margin-left: 12px;
+    }
+
+    #header .navigation-bar .social-icon {
+        margin-left: 18px;
+    }
+
+    #header .mobile-menu {
+        margin-left: 80%;
+    }
+
+    #hero {
+        padding: 0px 0;
+    }
+
+    #hero .nir-1 .content h1 {
+        font-size: 50px;
+    }
+
+    #hero .nir-2 .content h1 {
+        font-size: 50px;
+    }
+
+    #hero .nir-3 .content h1 {
+        font-size: 50px;
+    }
+
+    #hero .nir-1 .content .btn {
+        margin-left: 24%;
+    }
+
+    #hero .nir-2 .content .btn {
+        margin-left: 24%;
+    }
+
+    #hero .nir-3 .content .btn {
+        margin-left: 24%;
+    }
+
+    #hero .hero-1 .owl-dots {
+        position: absolute;
+        left: 30%;
+    }
+
+    #fashion .row .col-4 {
+        flex-basis: 100%;
+    }
+
+    #fashion .row .col-4 .button .btn-2 {
+        padding: 12px 94px;
+    }
+
+    #fashion-2 .row .col-4 {
+        flex-basis: 100%;
+    }
+
+    #fashion-2 h1 {
+        font-size: 65px;
+    }
+
+    #header .navigation-bar .social-icon {
+        display: none;
+    }
+
+    #header .mobile-menu {
+        margin-top: -33px;
+    }
+
+    #collection .img-thumbnail img {
+        height: 210px;
+    }
+
+    #content .row .col-2 .content p a {
+        font-size: 28px;
+    }
+
+    #content .row .col-2 .content p a {
+        font-size: 19px;
+    }
+
+    #content .row .col-2 .content {
+        bottom: 48px;
+        left: 32px;
+    }
+
+    #delivery .row .col-4 {
+        flex-basis: 100%;
+    }
+
+    #footer .row .col-4 {
+        flex-basis: 100%;
+    }
+
+    #shop h1 {
+        font-size: 55px;
+    }
+
+    #shop .main-row .main-col-2 .sub-row .col-4 {
+        flex-basis: 100%;
+    }
+
+    #story .row .col-2 .content h1 {
+        font-size: 38px;
+    }
+
+    #story .row .col-2 .content p {
+        font-size: 15px;
+    }
+
+    #story .row .col-2 .content {
+        margin-left: 4%;
+    }
+
+    #blog .row .full .col-7 .img-thumbnail .date {
+        left: 10px;
+        padding: 7px 30px;
+    }
+
+    #blog .row .full .col-7 .content p {
+        font-size: 12px;
+    }
+
+    #blog .row .full .col-7 .content h1 {
+        font-size: 22px;
+    }
+
+    #blog .row .full .col-7 .info-icon {
+        padding: 20px 15px;
+    }
+
+    #blog .row .col-3 .resent-post .post .sub-news .content a {
+        font-size: 22px;
+    }
+
+    #blog .row .col-3 .resent-post .post .sub-news .content p {
+        font-size: 14px;
+    }
+
+    #blog .row .col-3 .feeds .row-1 .col-1 {
+        flex-basis: 48%;
+    }
+
+    #form .row .col form .name {
+        width: 100%;
+    }
+    #form .row .col form .email {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:449px) {
+    #fashion .row .col-4 .button .btn-2 {
+        padding: 12px 48px;
+    }
+
+    #header .navigation-bar .logo a img {
+        margin-left: 0px;
+    }
+
+    #collection {
+        padding: 10px 0;
+    }
+
+    #delivery .row {
+        padding: 50px 0;
+    }
+
+    #shop h1 {
+        font-size: 45px;
+    }
+
+    #story .row .col-2 .content p {
+        font-size: 13px;
+        line-height: 19px;
+        margin-bottom: 15px;
+    }
+
+    #fashion {
+        padding: 10px 0;
+    }
+
+    #blog .row .full .col-7 .content h1 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    #blog .row .full .col-7 .info-icon a {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    #blog .row .full .col-7 .img-thumbnail .date {
+        left: 3px;
+        padding: 0px 8px;
+    }
+
+    #blog .row .full .col-7 .img-thumbnail .date h2 {
+        font-size: 18px;
+    }
+
+    #blog .row .full .col-7 .img-thumbnail .date span {
+        font-size: 12px;
+    }
+
+    #blog .row .col-3 .resent-post .post .sub-news .content a {
+        font-size: 12px;
+    }
+
+    #blog .row .col-3 .resent-post .post .sub-news .content p {
+        font-size: 10px;
+    }
+
+    #blog .row .col-3 .tag-clouds .btn .sml-btn {
+        padding: 9px 18px;
+    }
+
+    #blog .row .col-3 .feeds .row-1 .col-1 {
+        flex-basis: 100%;
+    }
+    #map iframe {
+	height: 282px;
+}
+}

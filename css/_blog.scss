@@ -1,0 +1,391 @@
+#blog {
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        .full {
+            flex-basis: 70%;
+            padding: 30px 40px;
+
+            .col-7 {
+                margin-bottom: 35px;
+                box-shadow: rgba(221, 221, 221, 0.3) 0px 10px 20px 0px;
+                padding: 30px 0;
+
+                .img-thumbnail {
+                    position: relative;
+                    overflow: hidden;
+
+                    img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        transition: 0.5s all linear;
+                    }
+
+                    .date {
+                        position: absolute;
+                        bottom: 0px;
+                        left: 40px;
+                        background: $hover;
+                        padding: 15px 30px;
+                        border-radius: 10px;
+                        transition: 0.1s all linear;
+                        cursor: pointer;
+                        z-index: 11;
+
+                        h2 {
+                            font-size: 35px;
+                            color: $colorWhite;
+                            font-weight: 700;
+                            transition: 0.1s all linear;
+                        }
+
+                        span {
+                            color: $colorWhite;
+                            font-size: 22px;
+                            font-weight: 700;
+                            transition: 0.1s all linear;
+
+                        }
+
+                        &:hover {
+                            background: transparent;
+                        }
+
+                        &:hover h2 {
+                            color: $hover;
+                        }
+
+                        &:hover span {
+                            color: $hover;
+                        }
+                    }
+
+                }
+
+                .content {
+                    margin-top: 45px;
+                    padding: 0 15px;
+
+                    h1 {
+                        font-size: 24px;
+                        font-weight: 300;
+                        opacity: 0.8;
+                        margin-bottom: 15px;
+
+                        a {
+                            color: $colorBlack;
+                            transition: 0.2s all linear;
+                            letter-spacing: 2px;
+
+                            &:hover {
+                                color: $hover;
+                            }
+                        }
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: $colorp;
+                        word-spacing: 1px;
+                    }
+
+                }
+
+                .info-icon {
+                    padding: 10px 15px;
+
+                    a {
+                        color: $colorp;
+                        font-size: 14px;
+                        transition: 0.2s all linear;
+
+                        i {
+                            margin: 0 8px;
+                            font-size: 18px;
+                        }
+
+                        &:hover {
+                            color: $hover;
+                        }
+                    }
+                }
+
+                &:hover .img-thumbnail img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .col-3 {
+            flex-basis: 28%;
+            padding: 30px 0;
+
+            .sc-box {
+                background: $inputbg;
+                padding: 20px 20px;
+
+                .ser-box {
+                    position: relative;
+                    width: 100%;
+                    padding: 0 15px;
+                    margin-bottom: 20px;
+
+                    .search {
+                        width: 100%;
+                        padding: 16px 10px;
+                        outline: none;
+                        border: 1px solid #ddd;
+                        border-right: none;
+                    }
+
+                    .btns {
+                        padding: 14px 25px;
+                        outline: none;
+                        border: 1px solid #ddd;
+                        position: absolute;
+                        border-left: none;
+                        background: transparent;
+                        cursor: pointer;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+
+                        i {
+                            font-size: 22px;
+                        }
+                    }
+
+                }
+
+                .button {
+                    padding: 15px;
+
+                    .search-btn {
+                        width: 100%;
+                        padding: 14px;
+                        outline: none;
+                        cursor: pointer;
+                        letter-spacing: 2px;
+                        font-size: 18px;
+                        color: $hover;
+                        background: transparent;
+                        border: 1px solid $hover;
+                        transition: 0.1s all linear;
+
+                        &:hover {
+                            background: $hover;
+                            color: $colorWhite;
+                        }
+                    }
+                }
+
+            }
+
+            .category {
+                padding: 25px 35px;
+                background: $inputbg;
+                margin-top: 20px;
+
+                h2 {
+                    color: $colorBlack;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 22px;
+                    padding: 20px 0;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                ul {
+                    padding: 20px 0;
+
+                    li {
+                        padding: 12px 0;
+                        border-bottom: 1px solid #ddd;
+
+                        a {
+                            padding: 5px 0;
+                            display: block;
+                            color: $colorp;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .resent-post {
+                margin-top: 50px;
+                background: $inputbg;
+                padding: 25px 35px;
+
+                h2 {
+                    color: $colorBlack;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 22px;
+                    padding: 20px 0;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                .post {
+                    padding: 20px 0;
+
+                    .sub-news {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 15px;
+
+                        .img-post {
+                            img {
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+
+                        .content {
+                            margin-left: 15px;
+
+                            a {
+                                color: $colorBlack;
+                                font-weight: 300;
+                                display: block;
+                                margin-bottom: 8px;
+                                transition: 0.3s all linear;
+                                opacity: 0.8;
+
+                                &:hover {
+                                    color: $hover;
+                                }
+                            }
+
+                            p {
+                                color: $colorp;
+                                font-size: 14px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .tag-clouds {
+                margin-top: 20px;
+                background: $inputbg;
+                padding: 25px 35px;
+
+                h2 {
+                    color: $colorBlack;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 22px;
+                    padding: 20px 0;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                .btn {
+                    padding-top: 25px;
+
+                    .sml-btn {
+                        padding: 10px 9px;
+                        border: 1px solid #ddd;
+                        color: $colorBlack;
+                        font-weight: 300;
+                        letter-spacing: 1px;
+                        display: inline-block;
+                        margin-bottom: 20px;
+                        font-size: 14px;
+                        transition: 0.3s all linear;
+
+                        &:hover {
+                            background: $hover;
+                            color: $colorWhite;
+                        }
+                    }
+                }
+            }
+
+            .feeds {
+                margin-top: 20px;
+                background: $inputbg;
+                padding: 25px 25px;
+
+                h2 {
+                    color: $colorBlack;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 22px;
+                    padding: 20px 0;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                .row-1 {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    flex-wrap: wrap;
+
+                    .col-1 {
+                        flex-basis: 30%;
+                        margin-bottom: 15px;
+
+                        img {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+
+            .newsletter {
+                margin-top: 30%;
+                background: $inputbg;
+                padding: 25px 25px;
+
+                h2 {
+                    color: $colorBlack;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 22px;
+                    padding: 20px 0;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                input{
+                    width: 100%;
+                    padding: 20px 15px;
+                    outline: none;
+                    border: 1px solid #ddd;
+
+                }
+                .btn-6{
+                    width: 100%;
+                    padding: 20px 0;
+                    background: transparent;
+                    outline: none;
+                    border: 1px solid $hover;
+                    cursor: pointer;
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                    color: $hover;
+                    transition: 0.3s all linear;
+
+                    &:hover{
+                        background: $hover;
+                        color: $colorWhite;
+                    }
+                }
+            }
+        }
+    }
+}

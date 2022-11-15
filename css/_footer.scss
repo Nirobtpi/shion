@@ -1,0 +1,115 @@
+#footer {
+    width: 100%;
+    position: relative;
+    padding: 50px 0px;
+    background: #1D2547;
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-direction: row;
+        padding: 25px 0;
+
+        .col-4 {
+            flex-basis: 18%;
+
+            // background: red;
+            .logo {
+                img {
+                    display: block;
+                }
+            }
+
+            .content {
+                p {
+                    font-size: 14px;
+                    margin-top: 20px;
+                    color: $footerP;
+                    line-height: 2;
+                    margin-bottom: 25px;
+                }
+            }
+
+            .sc-icon {
+                ul {
+                    display: flex;
+                    align-items: center;
+
+                    li {
+                        padding-right: 30px;
+
+                        a {
+                            i {
+                                color: $colorWhite;
+                                width: 40px;
+                                height: 40px;
+                                border: 1px solid $colorWhite;
+                                border-radius: 50%;
+                                font-size: 22px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                transition: 0.5s all linear;
+
+                                &:hover {
+                                    background: $hover;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            h1 {
+                font-size: 22px;
+                color: $colorWhite;
+                margin-top: -94px;
+                // text-align: center;
+            }
+
+            ul {
+
+                li {
+                    padding-top: 18px;
+
+                    // text-align: center;
+                    a {
+                        color: $footerP;
+                        font-size: 14px;
+                        transition: 0.5s all linear;
+
+                        &:hover {
+                            border-bottom: 1px solid $hover;
+                            color: $hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        padding: 25px 0;
+
+        p {
+            color: $footerP;
+            font-weight: 300;
+            font-size: 14px;
+
+            i {
+                color: $hover;
+                margin: 0 10px;
+            }
+
+            a {
+                color: $hover;
+                margin-left: 8px;
+                font-size: 18px;
+            }
+        }
+    }
+}
